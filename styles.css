@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+#grid-container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 50%;
+	height: 50vh;
+	margin: 20px 0;
+}
+
+.box{
+	border: 1px solid black;
+}
+
+
